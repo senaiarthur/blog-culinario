@@ -6,7 +6,7 @@ Este projeto consiste no desenvolvimento de um blog culinário utilizando HTML5 
 
 ## Integrante
 
-- Arthur
+- Arthur Mazieri Alves
 
 ## Estrutura Analítica do Projeto (EAP)
 
