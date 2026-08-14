@@ -116,11 +116,13 @@ blog-culinario/
 │   ├── receita.html
 │   └── contato.html
 │
-└── docs/
-    └── wireframes/
-        ├── home.png
-        ├── receita.png
-        └── contato.png
+├── docs/
+│    └── wireframes/
+│        ├── home.png
+│        ├── receita.png
+│        └── contato.png
+│
+└── index.html
 ```
 
 ### EAP — Estrutura Analítica do Projeto
@@ -221,6 +223,64 @@ git add .
 git commit -m "mensagem do commit"
 git push
 ```
+
+### Especificação de Hardware
+
+O desenvolvimento será realizado em um computador ou notebook com configuração adequada para executar as ferramentas utilizadas no projeto.
+
+* Processador: Dual Core ou superior.
+* Memória RAM: 8 GB ou superior.
+* Armazenamento: espaço disponível para os arquivos do projeto.
+* Conexão com a Internet.
+
+### Infraestrutura e Hospedagem
+
+A versão final do site será hospedada no GitHub Pages, permitindo que o Blog Culinário seja acessado pela Internet através de um navegador.
+
+### Mapeamento de Requisitos e Componentes
+
+Os requisitos do projeto estão relacionados aos principais componentes da aplicação:
+
+* **RF01:** Página inicial.
+* **RF02:** Página de receitas.
+* **RF03:** Menu de navegação entre as páginas.
+* **RF04:** Página de conteúdo das receitas.
+* **RF05:** Página de contato.
+
+Os requisitos não funcionais são aplicados principalmente na estrutura HTML semântica, estilização com CSS, organização dos arquivos, responsividade e compatibilidade com navegadores modernos.
+
+### Cronograma de Desenvolvimento
+
+O desenvolvimento do projeto será realizado de forma sequencial, considerando as etapas já concluídas e as próximas atividades.
+
+**07/08/2026:** Pesquisa de referências, estudo de UX e criação dos wireframes.
+**Responsável:** Desenvolvedor.
+
+**13/08/2026:** Definição da identidade visual, paleta de cores, tipografia e organização dos assets.
+**Responsável:** Desenvolvedor.
+
+**14/08/2026:** Atualização da documentação, arquitetura e planejamento do projeto.
+**Responsável:** Desenvolvedor.
+
+**15/08/2026:** Desenvolvimento da estrutura das páginas utilizando HTML semântico.
+**Responsável:** Desenvolvedor.
+
+**16/08/2026:** Implementação da identidade visual utilizando CSS.
+**Responsável:** Desenvolvedor.
+
+**17/08/2026:** Integração das páginas e dos recursos visuais.
+**Responsável:** Desenvolvedor.
+
+**18/08/2026:** Testes de navegação, funcionamento e responsividade.
+**Responsável:** Desenvolvedor.
+
+**19/08/2026:** Correções e revisão final do projeto.
+**Responsável:** Desenvolvedor.
+
+**20/08/2026:** Versionamento e publicação da versão final.
+**Responsável:** Desenvolvedor.
+
+
 
 ### Próximas Etapas
 
