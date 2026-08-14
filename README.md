@@ -85,9 +85,14 @@ docs/wireframes/
 O projeto utiliza a regra de cores 60-30-10.
 
 
-60%: Creme | HEX: #FFF8F0 - Fundo e áreas principais
-30%: Verde sálvia | HEX: #7A9E7E - Navegação e elementos estruturais 
-10%: Terracota | HEX: #C26046 - Botões e destaques
+60%: Creme 
+ HEX: #FFF8F0 - Fundo e áreas principais
+
+30%: Verde sálvia
+ HEX: #7A9E7E - Navegação e elementos estruturais 
+
+10%: Terracota
+ HEX: #C26046 - Botões e destaques
 
 ### Tipografia
 
