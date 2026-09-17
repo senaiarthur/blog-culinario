@@ -9,3 +9,113 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
+<body>
+
+    <header>
+        <div class="container">
+
+            <h1>Blog Culinário</h1>
+
+            <nav aria-label="Navegação principal">
+                <ul>
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="receitas.html">Receitas</a></li>
+                    <li><a href="bolo-cenoura.html">Receita do Dia</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+
+        <section class="contato">
+
+            <div class="container">
+
+                <h2>Entre em contato</h2>
+
+                <p>
+                    Tem alguma dúvida, sugestão ou gostaria de enviar
+                    uma receita? Preencha o formulário abaixo.
+                </p>
+
+                <form action="#" method="post">
+
+                    <div class="campo">
+
+                        <label for="nome">Nome</label>
+
+                        <input
+                            type="text"
+                            id="nome"
+                            name="nome"
+                            placeholder="Digite seu nome"
+                            required
+                        >
+
+                    </div>
+
+                    <div class="campo">
+
+                        <label for="email">E-mail</label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Digite seu e-mail"
+                            required
+                        >
+
+                    </div>
+
+                    <div class="campo">
+
+                        <label for="assunto">Assunto</label>
+
+                        <input
+                            type="text"
+                            id="assunto"
+                            name="assunto"
+                            placeholder="Digite o assunto"
+                            required
+                        >
+
+                    </div>
+
+                    <div class="campo">
+
+                        <label for="mensagem">Mensagem</label>
+
+                        <textarea
+                            id="mensagem"
+                            name="mensagem"
+                            rows="6"
+                            placeholder="Digite sua mensagem"
+                            required
+                        ></textarea>
+
+                    </div>
+
+                    <button type="submit">
+                        Enviar mensagem
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Blog Culinário. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
