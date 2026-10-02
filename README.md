@@ -413,3 +413,76 @@ A tecla Tab deve seguir uma ordem lógica entre os campos e botões do formulár
 O elemento que estiver selecionado deve apresentar um indicador visual de foco, permitindo que o usuário identifique sua posição na interface.
 
 Essa prática contribui para a acessibilidade e melhora a experiência de navegação.
+
+
+
+## Aula 09: UX de Tabelas de Dados e Telas de Perfil
+
+### 1. Pesquisa Teórica - UX para Tabelas Corporativas
+
+#### Alinhamento de Dados
+
+O alinhamento dos dados em tabelas é fundamental para melhorar a organização, a leitura e a identificação das informações.
+
+* **Textos:** devem ser alinhados à esquerda, facilitando a leitura e a identificação dos conteúdos.
+* **Números e valores monetários:** devem ser alinhados à direita, permitindo melhor comparação entre valores.
+* **Status e ações rápidas:** podem ser centralizados para facilitar a identificação visual e a interação do usuário.
+
+#### Filtros e Busca
+
+Os recursos de busca e filtragem permitem localizar informações de maneira rápida e eficiente.
+
+* O campo de pesquisa principal deve ficar posicionado na parte superior, acima da tabela, preferencialmente à esquerda ou à direita.
+* Filtros avançados devem ser agrupados ou organizados em menus suspensos (dropdowns), evitando excesso de elementos na interface.
+* A organização desses recursos deve facilitar o acesso sem comprometer o espaço disponível para os dados.
+
+#### Hierarquia Visual
+
+A hierarquia visual contribui para a organização e a legibilidade das tabelas, facilitando a interpretação das informações.
+
+* **Sticky Header:** utilização de cabeçalhos fixos em tabelas extensas, permitindo que os títulos das colunas permaneçam visíveis durante a rolagem.
+* **Zebra Striping:** alternância de cores entre as linhas para facilitar o acompanhamento horizontal das informações.
+* **Bordas sutis:** utilizadas para separar os dados sem sobrecarregar visualmente a interface.
+
+### 2. Especificação do Protótipo (Figma)
+
+#### Link do Projeto no Figma
+
+https://www.figma.com/design/B38eajpwRiiTM9U4xk7He3/Blog-Culin%C3%A1rio?node-id=12-508&t=i3UdOilJz2DmAweJ-1
+
+#### Telas Desenvolvidas
+
+##### 1. Perfil de Usuário
+
+Tela destinada à visualização e edição das informações de um usuário, permitindo consultar seus dados pessoais e identificar seu nível de permissão no sistema.
+
+Elementos presentes:
+
+* Avatar ou foto de perfil.
+* Nome completo do usuário.
+* Cargo ou função.
+* Dados pessoais.
+* Formulário para edição das informações.
+* Nível de permissão do usuário.
+* Botão para salvar alterações.
+
+##### 2. Área de Consulta (Tabela de Dados)
+
+Tela destinada à consulta e ao gerenciamento de usuários por meio de uma tabela organizada.
+
+Elementos presentes:
+
+* Lista de usuários organizada em colunas.
+* Campo de pesquisa para localizar registros.
+* Opções de ordenação dos dados.
+* Paginação para navegação entre os registros.
+* Ação de editar informações.
+* Ação de excluir usuários.
+
+### 3. Considerações Finais
+
+A aplicação dos conceitos de UI/UX em tabelas corporativas e telas de perfil contribui para a criação de interfaces mais organizadas, intuitivas e acessíveis.
+
+A utilização de alinhamento adequado, filtros, hierarquia visual e recursos de navegação facilita a consulta das informações e melhora a experiência do usuário.
+
+O protótipo desenvolvido no Figma permite representar visualmente essas diretrizes antes de uma possível implementação em código.
